@@ -4,7 +4,7 @@
 export const SITE_TITLE = "Professional skills workshop - UoE SoM";
 export const SITE_DESCRIPTION =
   "Workshop website for mathematics postgraduate researchers to learn more technical skills.";
-//export const TWITTER_HANDLE = "@yourtwitterhandle";
+export const TWITTER_HANDLE = "";
 export const MY_NAME = "'Professional Skills' Workshop";
 
 // setup in astro.config.mjs
