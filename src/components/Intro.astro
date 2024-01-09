@@ -1,0 +1,116 @@
+---
+import Heading from "./ui/Heading.astro";
+---
+
+<section class="wrapper">
+  <Heading
+    as="h1"
+    class="name gradient-text gradient-color outline outline-color"
+  >
+    "Professional Skills" Workshop
+  </Heading>
+  <p class="subtext">Tech literacy, maths software, LaTeX, CAS &hellip;</p>
+  <p class="hello">
+    <strong>Welcome!</strong> This is the homepage of the
+    <strong>Professional Skills</strong> workshop, aimed at mathematics
+    postgraduate researchers to help them develop the technical skills they
+    feel like they never had the opportunity to spend time learning.
+  </p>
+  <p class="no-bottom-margin">
+    Ever &hellip;
+  </p>
+  <ul>
+    <li>
+      found yourself on a Linux server and end up googling every command?
+    </li>
+    <li>
+      been invited to collaborate on a research paper and been sent a Git(Hub/Lab) link instead of your dear Overleaf?
+    </li>
+    <li>
+      copied a snippet of some involved TikZ code from arxiv but everything breaks in your document?
+    </li>
+  </ul>
+  <p>
+    As busy people, we often find a way round these problems to get the job
+    done, move on, tell ourselves we'll learn how to deal with things properly
+    next time, and forget.
+    This workshop is an opportunity to spend some time learning how/what can
+    be done with tech, see showcases of how others have incorporated tech
+    into their research, and get some hands-on time to experiment.
+  </p>
+</section>
+
+<style>
+  .wrapper {
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+  }
+
+  .outline {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.075rem var(--outline-color);
+  }
+
+  .gradient-color {
+    --gradient-text-from: #5433ff;
+    --gradient-text-via: #20bdff;
+    --gradient-text-to: #a5fecb;
+  }
+
+  .outline-color {
+    --outline-color: var(--text-heading);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .gradient-color {
+      --gradient-text-from: #a5fecb;
+      --gradient-text-via: #20bdff;
+      --gradient-text-to: #a5fecb;
+    }
+    .outline-color {
+      --outline-color: transparent;
+    }
+  }
+
+  .name {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: -2px;
+    line-height: 3.5rem;
+  }
+
+  .subtext {
+    color: var(--text-heading);
+    font-size: 1.25rem;
+    letter-spacing: -0.51px;
+    line-height: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  .cli-command {
+    text-align: center;
+    white-space: nowrap;
+    overflow: auto;
+  }
+
+  @media (min-width: 640px) {
+    .name {
+      font-size: 4rem;
+      line-height: 4.75rem;
+    }
+    .subtext {
+      font-size: 1.5rem;
+      letter-spacing: -0.51px;
+      line-height: 2rem;
+      margin-top: 0.5rem;
+    }
+  }
+
+  p.no-bottom-margin {
+    margin-bottom: 0;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+</style>
