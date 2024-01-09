@@ -28,9 +28,15 @@ jobs:
         with:
           cmd: build
 
+      - name: Upload artifacts
+        uses: actions/artifact@v4
+        with:
+          path: dist
+          name: pages
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: dist
+          artifact_name: pages
   
