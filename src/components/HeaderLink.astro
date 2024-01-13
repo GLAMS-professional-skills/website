@@ -2,12 +2,15 @@
 export interface Props extends astroHTML.JSX.AnchorHTMLAttributes {}
 
 const { href, class: className, ...props } = Astro.props;
-const path = Astro.url.pathname.replace(/\/$/, "");
+const path = Astro.url.pathname.replace(/\/website/, "").replace(/\/$/, "");
+const trimmed_href = href.replace(/\/website/, "");
 
-const isHome = href === '/' && path === '';
-const isOtherPages = typeof href === "string" && href.length > 1
-    ? path.substring(1).startsWith(href.substring(1))
+const isHome = trimmed_href === '/' && path === '';
+const isOtherPages = typeof trimmed_href === "string" && trimmed_href.length > 1
+    ? path.substring(1).startsWith(trimmed_href.substring(1))
     : false;
+console.log(path, trimmed_href)
+console.log(isHome, isOtherPages)
 const isActive = isHome || isOtherPages
 
 ---
