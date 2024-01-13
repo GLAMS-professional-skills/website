@@ -8,7 +8,7 @@ import { SITE_URL } from "../../config";
 
 export async function getStaticPaths() {
   const posts = await readAll({
-    directory: "blog",
+    directory: "recaps",
     frontmatterSchema: blog,
   });
 
@@ -28,7 +28,7 @@ if (typeof slug !== "string") {
 }
 
 const { content, frontmatter } = await readOne({
-  directory: "blog",
+  directory: "recaps",
   slug,
   frontmatterSchema: blog,
 });
@@ -44,7 +44,7 @@ const ogImageAbsoluteUrl =
     title={frontmatter.title}
     description={frontmatter.external ? undefined : frontmatter.description}
     publishDate={frontmatter.date.toISOString()}
-    pagePath={`/website/blog/${slug}`}
+    pagePath={`/website/recaps/${slug}`}
     ogImageAbsoluteUrl={ogImageAbsoluteUrl}
     slot="meta"
   />
