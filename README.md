@@ -1,4 +1,4 @@
-[link](https://glams-professional-skills.github.io/) to website build
+[link](https://glams-professional-skills.github.io/website/) to website build
 
 # Blogster
 
