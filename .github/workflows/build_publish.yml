@@ -18,16 +18,16 @@ jobs:
         with:
           node-version: 18.x
 
-      - name: Run install
-        uses: borales/actions-yarn@v4
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
         with:
-          cmd: install
+          version: 8
+          run_install: false
 
-      - name: Build production bundle
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: build
-
+      - name: Install dependencies
+        run: pnpm install
+      - name: Generate site
+        run: pnpm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
