@@ -21,3 +21,5 @@ Bring a laptop (that's it). Consider creating a GitHub account (especially on Wi
 Expect a short **intro talk** (30mins?) to set the scene, with hopefully a little nugget of something for **everyone**.
 Then hang around to **try** some of the things **mentioned in talk** (take your pick). There's easy explanatory examples, but also hard exercises.
 It's an opportunity to chat, ask instructor, ask chatgpt/copilot, and get a feel for what is out there. No need to learn everything in one go.
+
+If you're feeling nosy, take a sneak peek at the [exercise prompts](https://github.com/GLAMS-professional-skills/workshop1-terminals-and-shells) for the session.
