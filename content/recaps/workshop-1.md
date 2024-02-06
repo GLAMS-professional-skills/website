@@ -14,6 +14,9 @@ Exercises: [repo](https://github.com/GLAMS-professional-skills/workshop1-termina
 
 Not joined the discord but want to? Ask for link.
 
+Want to really get good at Bash or powershell? Try out the corresponding tracks on [exercism](https://exercism.org/) (there's also a track `awk`, a complementary tool if using Bash a lot).
+LinkedIn Learning also has relevant courses with exercises (UoE have free access).
+
 
 This first session was all trying out the things which shells allow you to do.
 
