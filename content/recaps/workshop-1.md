@@ -22,7 +22,7 @@ For other computer literacy, this playlist on youtube may also be useful: [Compu
 
 This first session was all trying out the things which shells allow you to do.
 
-**Next week:** Git (probably part 1/n)
+**In 2 weeks:** Git (probably part 1/n)
 
 **What to expect:** Git knowledge is necessary for the Lean course, but is occasionally used to manage LaTeX projects. Or maybe you're looking at developing some non-academic skills. Some Git is good to know.
 - Heard of, but never used Git?
