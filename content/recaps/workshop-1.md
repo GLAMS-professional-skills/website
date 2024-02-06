@@ -12,10 +12,13 @@ Notes (superset of presentation): [markdown](https://git.ecdf.ed.ac.uk/s1511002/
 
 Exercises: [repo](https://github.com/GLAMS-professional-skills/workshop1-terminals-and-shells)
 
+Not joined the discord but want to? Ask for link.
+
 
 This first session was all trying out the things which shells allow you to do.
 
 **Next week:** Git
+
 **What to expect:** Git knowledge is necessary for the Lean course, but is occasionally used to manage LaTeX projects. Or maybe you're looking at developing some non-academic skills. Some Git is good to know.
 - Heard of, but never used Git?
 - Comfortable with Git but haven't done much other than add, commit, push/pull?
