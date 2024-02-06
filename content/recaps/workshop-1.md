@@ -17,6 +17,8 @@ Not joined the discord but want to? Ask for link.
 Want to really get good at Bash or powershell? Try out the corresponding tracks on [exercism](https://exercism.org/) (there's also a track `awk`, a complementary tool if using Bash a lot).
 LinkedIn Learning also has relevant courses with exercises (UoE have free access).
 
+For other computer literacy, this playlist on youtube may also be useful: [Computer Stuff They Didn't Teach You](https://www.youtube.com/watch?v=gDXmTJakpT8&list=PL0M0zPgJ3HSesuPIObeUVQNbKqlw5U2Vr)
+
 
 This first session was all trying out the things which shells allow you to do.
 
