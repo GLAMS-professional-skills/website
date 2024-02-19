@@ -11,7 +11,7 @@ date: 2024-02-18
 | Title: | **Git Started** |
 | Theme: | **Git** (version control) |
 | Time: | **15:30-17:00 - Feb 20** |
-| Location: | **Bayes 5.45** (check email for zoom) |
+| Location: | ~~**Bayes 5.45**~~ **JCMB 5205** (check email for zoom) |
 
 Bring a laptop. Create a [GitHub](https://github.com) account.
 
