@@ -23,14 +23,3 @@ For other computer literacy, this playlist on youtube may also be useful: [Compu
 Two relevant videos in that playlist for this theme:
 - [Pull requests](https://www.youtube.com/watch?v=Mfz8NQncwiQ)
 - [Merge vs Rebase](https://www.youtube.com/watch?v=hae9zg0-sZY)
-
-
-**In 4 weeks:** Git Gud
-
-After some opportunity to practice, get ready to come back and actually get good.
-It's easy to think it's all just a hassle if you are not sufficiently fluid with it.
-
-**In 2 weeks:** Personal/group website creation
-
-Check out the following places to see if there's a theme you like (quickest way to get started):
-- .. links to come ...
