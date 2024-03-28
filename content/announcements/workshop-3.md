@@ -1,7 +1,7 @@
 ---
 external: false
 draft: false
-title: Workshop 3 - Mar 12 - Git Started
+title: Workshop 3 - Mar 12 - Catlab.jl
 description: Third workshop of the series on the theme of Computational Category Theory
 date: 2024-03-12
 ---
