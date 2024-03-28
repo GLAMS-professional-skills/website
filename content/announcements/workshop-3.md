@@ -8,7 +8,6 @@ date: 2024-03-12
 
 |  |  |
 |-:|-|
-| Title: | **Git Started** |
 | Theme: | **Computational Category Theory** (julia library catlab.jl) |
 | Time: | **15:30-17:00 - Mar 12** |
 | Location: | **JCMB 5205** (check email for zoom) |
